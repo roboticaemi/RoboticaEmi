@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'whas';
+    src:url("../font/Courgette-Regular.ttf");
+  
+  }
+body{
+    color: black;
+    font-size: 18px;
+}
+h1{
+    color: black;
+    font-family:'whas';
+    font-size: 40px;
+}
+.esquerda{
+    
+    top:-15em;
+    width: 600px;
+    text-align: justify;
+    position: relative;
+   left: 3em;
+    
+}
+.foto-direita{
+    position: relative;
+    top:-20em;
+    width: 600px;
+    height: 600px;
+}
+.foto-esquerda{
+    top: -40em;
+    position: relative;
+    left: 35em;
+    width: 700px;
+    height: 700px;
+}
+.direita{
+top:100px;
+width: 600px;
+text-align: justify;
+position: relative;
+left: 36em;
+}
+.menu{
+    width: 75em;
+    height: 20px;
+    background-color: black;
+}
