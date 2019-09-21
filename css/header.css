@@ -14,7 +14,7 @@ img#fotologo {
 }
 
 .menu{
-    float: inline-end;
+    float: left;
     width: 300px;
     height: 2.5em;
     background-color: rgb(17, 140, 255); 
