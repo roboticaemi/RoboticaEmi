@@ -14,7 +14,7 @@ img#fotologo {
 }
 
 .menu{
-    width: 300px;
+    width: 500px;
     height: 2.5em;
     background-color: rgb(17, 140, 255); 
 }
@@ -42,7 +42,7 @@ li{
     border-radius: 20%;
     float: right;
     align-content: center;
-    display: block;
+
     transition: 1s;
     transform: translateX(-1px);
     
