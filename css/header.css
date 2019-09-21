@@ -14,10 +14,10 @@ img#fotologo {
 }
 
 .menu{
-    float: right;
+    
     width: 75em;
     height: 2.5em;
-    background-color: rgb(176, 205, 233); 
+    background-color: rgb(17, 140, 255); 
 }
 .menu-flutuante{
     list-style-type: disc;
@@ -41,7 +41,7 @@ li{
     background-color: #2A0B59;
     margin: 0.5em;
     border-radius: 20%;
-    float: left;
+    float: right;
     align-content: center;
     display: block;
     transition: 1s;
