@@ -5,10 +5,10 @@
 header {
     background: rgb(123, 157, 231);
     width: 100%;
-    height: 270px;
+    height: 230px;
 }
 
 img#fotologo {
-    margin: 15px;
+    margin: 20px;
     width: 230px;
 }
