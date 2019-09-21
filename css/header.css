@@ -41,7 +41,7 @@ li{
     background-color: #2A0B59;
     margin: 0.5em;
     border-radius: 20%;
-    float: right;
+    float: inline-end;
     align-content: center;
     display: block;
     transition: 1s;
