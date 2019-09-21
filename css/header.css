@@ -22,7 +22,7 @@ img#fotologo {
 }
 
 ul{
-    display: inline block;
+    display: inline block; 
     overflow: hidden;
     list-style-type: none;
 }
