@@ -17,7 +17,7 @@ img#fotologo {
     float: right;
     width: 75em;
     height: 2.5em;
-    background-color: #02008F; 
+    background-color: rgb(176, 205, 233); 
 }
 .menu-flutuante{
     list-style-type: disc;
