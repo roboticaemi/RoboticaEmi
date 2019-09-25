@@ -16,172 +16,28 @@
 <!----------- Estilo playlist e js ------------------>
 <link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+	<link rel="stylesheet" href="css/stylemenu.css">
 </head>
 
 
 <body>
+ 
+<div class="wrapper">
+	<h2>Elastic Tabs</h2>
+	<h6>Click on tabs to see them in action</h6>
+	<nav class="tabs">
+	  <div class="selector"></div>
+	  <a href="#" class="active"><i class="fab fa-superpowers"></i>Avengers</a>
+	  <a href="#"><i class="fas fa-hand-rock"></i>Hulk</a>
+	  <a href="#"><i class="fas fa-bolt"></i>Thor</a>
+	  <a href="#"><i class="fas fa-burn"></i>Marvel</a>
+	</nav>
+  </div>
   
-        
-	<style>
-		@import url(http://fonts.googleapis.com/css?family=roboto:100,300,400,700);
-		
-		* { box-sizing: border-box; }
-		
-		body {
-		  font-family: 'roboto', sans-serif;
-		 
-		}
-		
-		ul {
-		  font-size: 0;
-		  position: relative;
-		  padding: 0;
-		  width: 480px;
-		  margin: 40px auto;
-		  -webkit-user-select: none;
-		  -moz-user-select: none;
-		  -ms-user-select: none;
-		  user-select: none;
-		}
-		
-		li {
-		  display: inline-block;
-		  width: 160px;
-		  height: 60px;
-		  background: #DA4453;
-		  font-size: 16px;
-		  text-align: center;
-		  line-height: 60px;
-		  color: #fff;
-		  text-transform: uppercase;
-		  position: relative;
-		  overflow: hidden;
-		  cursor: pointer;
-		}
-		
-		.slider {
-		  display: block;
-		  position: absolute;
-		  bottom: 0;
-		  left: 0;
-		  height: 4px;
-		  background: #46CFB0;
-		  -webkit-transition: all 0.5s;
-		  transition: all 0.5s;
-		}
-		
-		
-		.ripple {
-		  width: 0;
-		  height: 0;
-		  border-radius: 50%;
-		  background: rgba(255, 255, 255, 0.4);
-		  -webkit-transform: scale(0);
-		  -ms-transform: scale(0);
-		  transform: scale(0);
-		  position: absolute;
-		  opacity: 1;
-		}
-		
-		.rippleEffect {
-		  -webkit-animation: rippleDrop .6s linear;
-		  animation: rippleDrop .6s linear;
-		}
-		 @-webkit-keyframes 
-		rippleDrop {  100% {
-		 -webkit-transform: scale(2);
-		 transform: scale(2);
-		 opacity: 0;
-		}
-		}
-		 @keyframes 
-		rippleDrop {  100% {
-		 -webkit-transform: scale(2);
-		 transform: scale(2);
-		 opacity: 0;
-		}
-		}
-		</style>
-		</head>
-		
-		<body>
-		<h1 style="color:#fff; text-align:center;">Material Design Sliding Tab Menu Demo</h1>
-		<div class="jquery-script-ads" style="margin-top:30px;" align="center";><script type="text/javascript">
-		google_ad_client = "ca-pub-2783044520727903";
-		
-		google_ad_slot = "2780937993";
-		google_ad_width = 728;
-		google_ad_height = 90;
-		
-		</script>
-		<script type="text/javascript"
-		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-		</script></div>
-		<ul>
-		  <li>Robotica </li>
-		  <li>Conseito </li>
-		  <li>Introdução </li>
-		  <li>Robotica </li>
-		  <li>Conseito </li>
-		  <li>Introdução </li>
-		  <li class="slider"></li>
-		</ul>
-		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
-		<script>
-		$("ul li").click(function(e) {
-		  
-		  if ($(this).hasClass('slider')) {
-			return;
-		  }
-		  var whatTab = $(this).index();
-		
-		  var howFar = 160 * whatTab;
-		
-		  $(".slider").css({
-			left: howFar + "px"
-		  });
-		  $(".ripple").remove();
-		  var posX = $(this).offset().left,
-			  posY = $(this).offset().top,
-			  buttonWidth = $(this).width(),
-			  buttonHeight = $(this).height();
-		
-		  
-		  $(this).prepend("<span class='ripple'></span>");
-		
-		  if (buttonWidth >= buttonHeight) {
-			buttonHeight = buttonWidth;
-		  } else {
-			buttonWidth = buttonHeight;
-		  }
-		
-		  
-		  var x = e.pageX - posX - buttonWidth / 2;
-		  var y = e.pageY - posY - buttonHeight / 2;
-		
-		
-		  $(".ripple").css({
-			width: buttonWidth,
-			height: buttonHeight,
-			top: y + 'px',
-			left: x + 'px'
-		  }).addClass("rippleEffect");
-		});
-		</script>
-		<script type="text/javascript">
-		
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-36251023-1']);
-		  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-</script>		
-   
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="js/script.js"></script>
+  
 
 <script type="text/javascript">
 	$( document ).ready(function( $ ) {
