@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/ccs?family=Titillium+web);
+ @font-face{
+ 
+     font-family: 'fonteLogo';
+     src:url("../_fonts/bubblegum-sans-regular.otf");
+    }
+    @font-face{
+      font-family: 'OLG';
+     src:url("../fonts/Courgette-Regular.ttf");
+
+    }
+    @font-face{
+      font-family: 'fonteh2';
+      src:url("../Rnews/_fontes/Exo2-Regular.ttf");
+  
+      }
+           
+body{
+    font-family:'fonteRnews';
+    background-color: #e2e2e2;
+    color: rgba(0, 0, 0, 1);
+    background-image: url("../Rnews/_imagens/");
+    overflow-x: hidden;
+    
+  
+
+}
+body{ height:300px; overflow-y:scroll; }
+ 
+body::-webkit-scrollbar {
+  width: 20px;
+  background-color: rgb(4, 48, 131);
+  border: 1px solid rgb(8, 1, 43);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(18, 101, 184);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background-color:rgb(243, 243, 243)
+  }
+p {
+  text-align: justify;
+  text-indent:50px;
+  font-family: 'fonteRnews';
+}
+.border{
+padding: 50px;
+width: 850px;
+font-size: 25px;
+border-radius: 10px;
+background-color: rgb(255, 254, 254);
+position: relative;
+
+margin: 10em auto;
+top: -8em;
+color: rgb(0, 0, 0);
+font-family: 'OLG';
+
+}
+
+.border2{
+  position: relative;
+  padding: 50px;
+width: 850px;
+height: 1700px;
+font-size: 25px;
+top: -17em;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+margin: 10em auto; 
+color: rgb(0, 0, 0);
+font-family: 'OLG';
+}
+.border3{
+  position: relative;
+  padding: 50px;
+width: 850px;
+  font-size: 25px;
+top: -17em;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+margin: 10em auto;
+margin-bottom: -9em ;
+color: rgb(0, 0, 0);
+font-family: 'OLG';
+}
+
+h2{
+  font-size: 20px;
+  font-family:'fonteh2';
+  color:rgb(248, 248, 250);
+  left: 100px;
+}
+
+a{
+   color: #1900ff;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+img#icone{
+    position: absolute;
+    left: 1300px;
+    top: 0px; 
+}
+ 
+  /* fim */
+  .menu{
+      margin: 0% auto;
+      background-color: #c50303;
+   }
+   /* segundo */
+  .btn1{
+    
+    margin: 15px 15px 15px 15px;
+      left: 0px;
+      z-index: 100;
+      position: relative;
+  }
+  .icone3{
+    position: relative;
+   
+  }
