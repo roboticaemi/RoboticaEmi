@@ -8,11 +8,6 @@
 }
 
 /* Example 5 */
-#example5{
-	position: relative;
-	top:10em;
-	margin-bottom: 10em;
-}
 
 #example5 .sp-thumbnail-image-container {
 	width: 100px;
@@ -27,7 +22,7 @@
 
 #example5 .sp-thumbnail-text {
 	width: 170px;
-	top: 100em;
+	top:-100px;
     float: right;
     padding: 8px;
     background-color: #ffffff;
