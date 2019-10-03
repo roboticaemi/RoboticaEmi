@@ -18,24 +18,24 @@
            
 body{
     font-family:'fonteRnews';
-    background-color: #e2e2e2;
-    color: rgba(0, 0, 0, 1);
+    background-color: #202020;
+    color: rgb(255, 255, 255);
     background-image: url("../Rnews/_imagens/");
     overflow-x: hidden;
     
   
 
 }
-body{ height:300px; overflow-y:scroll; }
+/* body{ height:300px; overflow-y:scroll; } */
  
 body::-webkit-scrollbar {
   width: 20px;
-  background-color: rgb(4, 48, 131);
-  border: 1px solid rgb(8, 1, 43);
+  background-color: rgb(107, 107, 107);
+  border: 1px solid rgb(142, 142, 143);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(18, 101, 184);
-  border-radius: 10px;
+  background-color: rgb(73, 73, 73);
+
 }
 body::-webkit-scrollbar-thumb:hover{
   background-color:rgb(243, 243, 243)
@@ -47,13 +47,13 @@ p {
 }
 .border{
 padding: 50px;
-width: 850px;
+width: 95%;
 font-size: 25px;
-border-radius: 10px;
-background-color: rgb(255, 254, 254);
-position: relative;
 
-margin: 10em auto;
+background: #fafafa;
+position: relative;
+margin-top: 10em;
+
 top: -8em;
 color: rgb(0, 0, 0);
 font-family: 'OLG';
@@ -99,9 +99,6 @@ a{
    text-decoration: none;
 }
 
-a:hover{
-   text-decoration: underline;
-}
 
 img#icone{
     position: absolute;
@@ -126,3 +123,17 @@ img#icone{
     position: relative;
    
   }
+  .fosasdfs{
+    top:-160px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 70px;
+  }
+.ase{
+  top:-40px;
+  position: relative;
+  left: 650px;
+  width: 300px;
+  height: 50px;
+}

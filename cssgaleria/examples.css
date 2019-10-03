@@ -18,11 +18,13 @@
 
 #example5 .sp-thumbnail-image {
 	height: 100%;
+	width: 100px;
 }
 
 #example5 .sp-thumbnail-text {
 	width: 170px;
 	top:-100px;
+	height: 100px;
     float: right;
     padding: 8px;
     background-color: #ffffff;

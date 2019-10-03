@@ -1,71 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body{
+  margin: 0px;
+  padding: 0px;
   font-family: 'Roboto', sans-serif;
 }
-
-h2{
-  margin:0px;
-  text-transform: uppercase;
+header{
+  position: relative;
+  max-width: 100%;
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0 , 0, 0,.2 )
 }
-
-h6{
-  margin:0px;
-  color:#777;
+.logo{
+  text-decoration: none;
+  margin-left: -50px;
+  margin-top: -30px;
+  color: #069370;
+  height: 60px;
+  font-size: 36px;
+  line-height: 60px; 
+  padding: 0 20px;
+top: -10px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 700;
+  text-decoration: none;
 }
-
-.wrapper{
- left: 50px;
-  margin:50px auto;
+nav{
+  float: right;
+}
+.clearfix{
+  clear: both;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  position: sticky;
 
 }
-
-.tabs{
-  
-  font-size:20px;
-  padding:10px;
-  width: 32em;
-  list-style:none;
-  background:#fff;
-  box-shadow:0px 5px 20px rgba(0,0,0,0.1);
-  display:inline-block;
-  border-radius:50px;
-  position:relative;
+#menu {
+  position: sticky;
+  top: 0;
+ z-index: 1000;
+  padding: 8px;
+  color: #fff;
+  }
+nav ul li {
+list-style: none;
 }
-
-.tabs a{
-  text-decoration:none;
-  color: #777;
-  text-transform:uppercase;
-  padding:10px 20px;
-  display:inline-block;
-  position:relative;
-  z-index:1;
-  transition-duration:0.6s;
+nav ul li a{
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
 }
-
-.tabs a.active{
-  color:#fff;
+nav ul li a#active,nav ul li a:hover{
+  background: #069370;
+  color: #fff;
+  transition: 0.5s;
 }
-
-.tabs a i{
-  margin-right:5px;
+a{
+  font-size: 25px;
 }
+.tempo{
+position: relative;
 
-.tabs .selector{
-  height:100%;
-  display:inline-block;
-  position:absolute;
-  left:0px;
-  top:0px;
-  z-index:1;
-  border-radius:50px;
-  transition-duration:0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  
-  background: #05abe0;
-  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
-  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+left: 570px;
+top:-130px;
 }
